@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+    background-color: darkgray;
+}
+#transform-1{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(79, 57, 175);
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    transform: translateX(500px) translateY(200px)
+    rotateX(180deg); 
+}
+#transform-2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(252, 0, 0);
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    transform: scaleY(1.5);
+}
+#transform-3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(34, 97, 22);
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    transform: translateX(1000px) translateY(-170px)
+    skewX(45deg);
+}
